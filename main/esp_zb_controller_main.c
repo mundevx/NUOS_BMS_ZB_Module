@@ -366,9 +366,8 @@ static void esp_zb_task(void *pvParameters)
     return;
 #endif
     // esp_zb_factory_reset();
-    ESP_ERROR_CHECK(
-        esp_zb_start(false));
-
+    ESP_ERROR_CHECK(esp_zb_start(false));
+    //Thos is comment
     /* From here on the link tasks may take the Zigbee lock. */
     nuos_link_notify_zb_started();
     nuos_status_led_set_state(NUOS_LED_ZIGBEE_STARTED);
