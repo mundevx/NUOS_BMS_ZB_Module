@@ -16,7 +16,7 @@
 #include <string.h>
 
 /* Zigbee configuration */
-#define MAX_CHILDREN                    5          /* the max amount of connected devices */
+#define MAX_CHILDREN                    32          /* the max amount of connected devices */
 #define INSTALLCODE_POLICY_ENABLE       false   /* enable the install code policy for security */
 #define ED_AGING_TIMEOUT                ESP_ZB_ED_AGING_TIMEOUT_4096MIN //ESP_ZB_ED_AGING_TIMEOUT_10SEC //
 #define ED_KEEP_ALIVE                   30000    /* 30000 millisecond */

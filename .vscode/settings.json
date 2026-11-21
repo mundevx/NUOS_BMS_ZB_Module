@@ -1,12 +1,17 @@
 {
   "idf.currentSetup": "C:\\Users\\procu\\esp\\v5.5\\esp-idf",
-  "idf.customExtraVars": {},
-  "clangd.path": "c:\\esp\\esp-zigbee-sdk\\tools\\esp-clang\\esp-20.1.1_20250829\\esp-clang\\bin\\clangd.exe",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32h2"
+  },
+  "clangd.path": "C:\\Users\\procu\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=c:\\esp\\esp-zigbee-sdk\\examples\\esp_zigbee_HA_sample\\NUOS_BMS_ZB_Module\\build"
   ],
-  "idf.portWin": "COM7",
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32h2-builtin.cfg"
+  ],
+  "idf.port": "COM14"
 }
