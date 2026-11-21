@@ -365,7 +365,6 @@ static void esp_zb_task(void *pvParameters)
     ESP_LOGW(TAG, "*** ZIGBEE FACTORY RESET REQUESTED; reboot/pair as a new router ***");
     return;
 #endif
-
     // esp_zb_factory_reset();
     ESP_ERROR_CHECK(
         esp_zb_start(false));
